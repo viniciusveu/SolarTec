@@ -12,8 +12,11 @@ header("Content-type: text/html;charset=utf-8");
 $nome = $_POST['nome'];
 $tel = $_POST['tel'];
 $emailform = $_POST['email'];
+<<<<<<< HEAD
 $cidade = $_POST['cidade'];
 $luz = $_POST['luz'];
+=======
+>>>>>>> 18477cf5545c73f87ef9ef482422835b5510b8b3
 $msg = $_POST['mensagem'];
 
 $mail = new PHPMailer(true);
@@ -35,8 +38,13 @@ try {
    /* Set the encryption system. */
     $mail->SMTPSecure = 'tls';
    
+<<<<<<< HEAD
    /* SMTP authentication username. flavio.castilho@hotmail.com   Fla3564fla*/
     $mail->Username = 'viniciusvedovotto@gmail.com'; 
+=======
+   /* SMTP authentication username. */
+    $mail->Username = 'viniciusvedovotto@gmail.com';
+>>>>>>> 18477cf5545c73f87ef9ef482422835b5510b8b3
    
    /* SMTP authentication password. */
     $mail->Password = 'fostonfsgoogle';
@@ -56,13 +64,21 @@ try {
     $mail->setFrom('noreply.solartec@gmail.com', utf8_decode('Não responda - SolarTec'));
  
     /* Add a recipient. */
+<<<<<<< HEAD
     $mail->addAddress(utf8_decode('viniciusvedovotto@gmail.com'), utf8_decode('Vedovotto'));
+=======
+    $mail->addAddress( utf8_decode('viniciusvedovotto@gmail.com'),  utf8_decode('Vedovotto'));
+>>>>>>> 18477cf5545c73f87ef9ef482422835b5510b8b3
  
     /* Set the subject. */
     $mail->Subject = utf8_decode('Novo contato site SolarTec - ' . $nome);
     $mail->IsHTML(true);  
     /* Set the mail message body. */
+<<<<<<< HEAD
     $mail->Body = utf8_decode('Mensagem de: ' . $nome . '<br>Telefone: ' . $tel . '<br>E-mail: ' . $emailform . '<br>Cidade: ' . $cidade . '<br>Media de conta anual: ' . $luz . '<br>Mensagem: <br>' . $msg);
+=======
+    $mail->Body = utf8_decode('Mensagem de: ' . $nome . '.<br> Telefone: ' . $tel . '.<br> E-mail: ' . $emailform . '.<br> Mensagem: ' . $msg );
+>>>>>>> 18477cf5545c73f87ef9ef482422835b5510b8b3
 
     // $mail->SMTPDebug = 4; 
 
