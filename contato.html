@@ -30,7 +30,7 @@
                 <i class="material-icons">menu</i>
             </a>
             <a href="index.html" class="brand-logo" title="Home" style="text-align: center">
-                <img src="./assets/imagens/logo_branco.png" alt="SolarTec" height="63px" style="padding: 7%">
+                <img src="./assets/imagens/logo_branco.png" alt="SolarTec" height="65px" style="padding: 7%; position: center;">
             </a>
             <ul class="right hide-on-med-and-down">
                 <li>
@@ -52,7 +52,10 @@
                     <a href="blog.html">Blog</a>
                 </li>
                 <li>
-                    <a href="contato.html">Contato</a>
+                    <a href="contato.html">
+                        <button class="btn waves-effect waves-light yellow accent-4 blue-text z-depth-5" title="Converse conosco e peça um orçamento"
+                            type="button" name="action">ORÇAMENTO</button>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -77,19 +80,21 @@
             <a href="blog.html">Blog</a>
         </li>
         <li>
-            <a href="contato.html">Contato</a>
+            <a href="contato.html">
+                <button class="btn waves-effect waves-light" title="Converse conosco e peça um orçamento" type="submit" name="action">ORÇAMENTO</button>
+            </a>
         </li>
     </ul>
 
 
     <div class="container darken-3">
         <div class="row">
-            <h5 style="margin: 3%">Solicite um orçamento: </h5>
-            <form class="col s12" action="./assets/enviar.php" method="post" name="form">
+            <h4 class="header" style="margin: 3%">Solicite um orçamento: </h4>
+            <form class="col s12" action="assets/php/enviar.php" method="post" name="form">
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">account_circle</i>
-                        <input name="nome" id="icon_prefix" type="text" class="validate">
+                        <input name="nome" id="icon_prefix" type="text" class="validate" required>
                         <label for="icon_prefix">Nome</label>
                     </div>
                     <div class="input-field col s12">
@@ -99,18 +104,41 @@
                     </div>
                     <div class="input-field col s12">
                         <i class="material-icons prefix">email</i>
-                        <input name="email" id="icon_email" type="email" class="validate">
+                        <input name="email" id="icon_email" type="email" class="validate" required>
                         <label for="icon_email">E-Mail</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">location_on</i>
+                        <input name="cidade" id="location_on" type="text" class="validate">
+                        <label for="location_on">Cidade / UF</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <select name="luz">
+                            <option value="" disabled selected>Opção</option>
+                            <option value="150">Até R$ 150,00</option>
+                            <option value="200">De R$ 151,00 até R$ 200,00</option>
+                            <option value="250">De R$ 201,00 até R$ 250,00</option>
+                            <option value="300">De R$ 251,00 até R$ 300,00</option>
+                            <option value="350">De R$ 301,00 até R$ 350,00</option>
+                            <option value="400">De R$ 351,00 até R$ 400,00</option>
+                            <option value="450">De R$ 401,00 até R$ 450,00</option>
+                            <option value="500">De R$ 451,00 até R$ 500,00</option>
+                            <option value="1000">Acima de R$ 501,00</option>
+                        </select>
+                        <label>Média anual da conta de luz: </label>
                     </div>
                     <div class="input-field col s12">
                         <i class="material-icons prefix">mode_edit</i>
-                        <textarea name="mensagem" id="textarea1" class="materialize-textarea"></textarea>
+                        <textarea name="mensagem" id="textarea1" class="materialize-textarea" required></textarea>
                         <label for="textarea1">Insira o texto aqui...</label>
                     </div>
                 </div>
-                <button class="btn waves-effect waves-light" style="margin-left: 40%" type="submit">ENVIAR
-                    <i class="material-icons right">send</i>
-                </button>
+                <div class="center">
+                    <button class="btn waves-effect waves-light" style="position: center;" type="submit">ENVIAR
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+
             </form>
         </div>
     </div>
@@ -131,20 +159,21 @@
                     <ul>
                         <li>
                             <a class="grey-text text-lighten-3" href="tel:18996313205" target="_blank" title="Celular e WhatsApp">
-                                <i class="fab fa-whatsapp"></i> (18) 99631-3205 - Flávio </br>
-                                </br>
+                                <i class="fab fa-whatsapp"></i> (18) 99631-3205 - Flávio <br>
+                                <br>
                             </a>
                         </li>
                         <li>
                             <a class="grey-text text-lighten-3" href="mailto:contato@solartec.eco.br" target="_blank" title="Envie um e-mail">
-                                <i class="fas fa-at"></i> contato@solartec.eco.br</br>
-                                </br>
+                                <i class="fas fa-at"></i> contato@solartec.eco.br<br>
+                                <br>
                             </a>
                         </li>
                         <li>
                             <a class="grey-text text-lighten-3" target="_blank">
-                                <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Jardim das Rosas, Presidente Prudente - SP </br>
-                                </br>
+                                <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Jardim das Rosas, Presidente
+                                Prudente - SP
+                                <br>
                             </a>
                         </li>
                     </ul>

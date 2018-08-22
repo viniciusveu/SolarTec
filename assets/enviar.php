@@ -1,10 +1,3 @@
-<html>
-<head>
-<meta charset="utf-8">
-</head>
-
-<body>
-
 <?php
 
 if (isset($_POST['enviar'])) {
@@ -38,5 +31,3 @@ if (isset($_POST['enviar'])) {
     header("location:localhost/SolarTec/obrigado.html");
 }
 ?>
-</body>
-</html>
