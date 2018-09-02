@@ -19,16 +19,27 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="assets/js/utils.js"></script>
+
+    <!-- Style -->
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
 </head>
 
-<body>
+<body class="blue-grey darken-1">
     <nav class="indigo darken-3">
         <div class="nav-wrapper">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
             </a>
             <a href="index.html" class="brand-logo" title="Home" style="text-align: center">
-                <img src="./assets/imagens/logo_branco.png" alt="SolarTec" height="63px" style="padding: 7%">
+                <img src="./assets/imagens/logo_branco.png" alt="SolarTec" height="65px" style="padding: 7%; position: center;">
             </a>
             <ul class="right hide-on-med-and-down">
                 <li>
@@ -50,7 +61,10 @@
                     <a href="blog.html">Blog</a>
                 </li>
                 <li>
-                    <a href="contato.html">Contato</a>
+                    <a href="contato.html">
+                        <button class="btn waves-effect waves-light yellow accent-4 blue-text z-depth-5" title="Converse conosco e peça um orçamento"
+                            type="button" name="action">ORÇAMENTO</button>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -75,23 +89,49 @@
             <a href="blog.html">Blog</a>
         </li>
         <li>
-            <a href="contato.html">Contato</a>
+            <a href="contato.html">
+                <button class="btn waves-effect waves-light" title="Converse conosco e peça um orçamento" type="submit" name="action">ORÇAMENTO</button>
+            </a>
         </li>
     </ul>
 
 
-    <div class="row">
-        <div class="col s12 m12">
-            <div class="card">
-                <div class="card-image">
-                    <img src="./assets/imagens/missao-visao-valores.jpg">
-                    <span class="card-title"></span>
+    <div class="row container">
+        <div class="col s12 m6">
+            <div class="card blue">
+                <div class="card-content white-text">
+                    <span class="card-title"><p style="text-align:center"><b>MISSÃO<i class="material-icons">event_note</i></b></p></span>
+                    <p>A SolarTec foi criada em 2017 com a missão de resolver os problemas energéticos dos nossos clientes
+                        e parceiros tendo como foco o retorno financeiro e a sustentabilidade que o nosso planeta necessita.</p>
+                    <p><br></p>
                 </div>
-                <div class="card-content">
-                    <p>Eu sou o Flávio e instalo umas placa solar muito loka, me contratem!</br> Sobre nos: A Solartec foi fundada
-                        em 2018</br> Missão / visão / valores
+            </div>
+        </div>
 
-                    </p>
+        <div class="col s12 m6">
+            <div class="card yellow">
+                <div class="card-content white-text">
+                    <span class="card-title"><p style="text-align:center"><b>VISÃO <i class="material-icons">assessment</i></b></p></span>
+                    <p>Nosso objetivo é criar uma empresa onde os colaboradores sejam apaixonados pela profissão e assim
+                        ajudar a estruturar a matriz energética do país, disponibilizando energia de maneira sustentável
+                        para o desenvolvimento econômico, impactando o macro ambiente.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s8 offset-s2">
+            <div class="card red">
+                <div class="card-content white-text">
+                    <span class="card-title"><p style="text-align:center"><b>VALORES<i class="material-icons">star</i></b></p></span>
+                    <ul>
+                        <li>- Honestidade</li>
+                        <li>- Comprometimento</li>
+                        <li>- Responsabilidade Social</li>
+                        <li>- Transparência</li>
+                        <li>- Trabalhar de maneira sustentável</li>
+                        <li>- Espitiro de time</li>
+                        <li>- Profissionalismo</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -103,7 +143,7 @@
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">SolarTec</h5>
-                    <p class="grey-text text-lighten-4">Pensar no futuro é pensar no presente.</p>
+                    <p class="grey-text text-lighten-4">Economia e sustentabilidade.</p>
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSolarTec-354732888355024%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                         width="100%" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
                         allow="encrypted-media"></iframe>
@@ -113,20 +153,24 @@
                     <ul>
                         <li>
                             <a class="grey-text text-lighten-3" href="tel:18996313205" target="_blank" title="Celular e WhatsApp">
-                                <i class="fab fa-whatsapp"></i> (18) 99631-3205 - Flávio </br>
-                                </br>
+                                <p>
+                                    <i class="fab fa-whatsapp"></i> <b>(18) 99631-3205 - Flávio</b>
+                                </p>
                             </a>
                         </li>
                         <li>
                             <a class="grey-text text-lighten-3" href="mailto:contato@solartec.eco.br" target="_blank" title="Envie um e-mail">
-                                <i class="fas fa-at"></i> contato@solartec.eco.br</br>
-                                </br>
+                                <p>
+                                    <i class="fas fa-at"></i> <b>contato@solartec.eco.br</b>
+                                </p>
                             </a>
                         </li>
                         <li>
-                            <a class="grey-text text-lighten-3" title="Endereço" target="_blank">
-                                <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Jardim das Rosas, Presidente Prudente - SP </br>
-                                </br>
+                            <a class="grey-text text-lighten-3" target="_blank">
+                                <p>
+                                    <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Jardim das Rosas, Presidente
+                                    Prudente - SP
+                                </p>
                             </a>
                         </li>
                     </ul>
