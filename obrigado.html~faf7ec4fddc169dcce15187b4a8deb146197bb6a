@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible">
-    <title>Passo a passo para obter seu sistema | SolarTec</title>
+    <title>SolarTec | Obrigado</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Links -->
@@ -12,17 +12,30 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
-    <link rel="shortcut icon" href="./assets/imagens/logo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./imagens/logo.ico" type="image/x-icon" />
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script src="assets/js/utils.js"></script>
+    <script src="./js/utils.js"></script>
 
+    <!--Style-->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+        h1 {
+            font-family: 'Arial', sans-serif;
+            color: white;
+
+            -webkit-text-stroke-width: .8px;
+            -webkit-text-stroke-color: black;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
-<body class="blue-grey darken-1">
+
+<body>
     <nav class="indigo darken-3">
         <div class="nav-wrapper">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
@@ -85,18 +98,26 @@
         </li>
     </ul>
 
-    <div class="container">
-        <img style="max-width: 100%;" src="./assets/imagens/como_funciona2.png">
+    <div class="parallax-container center valign-wrapper indigo darken-3" style="width: 100%">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 white-text" style="background-color: rgba(0, 0, 0, 0.3)">
+                    <h1>Obrigado pelo contato! :D</h1>
+                    <h2>Retornaremos em breve!</h2>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <footer class="page-footer indigo darken-3" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">SolarTec</h5>
-                    <p class="grey-text text-lighten-4">Economia e sustentabilidade.</p>
+                    <p class="grey-text text-lighten-4">Pensar no futuro é pensar no presente.</p>
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSolarTec-354732888355024%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                        width="100%" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+                        width="340" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
                         allow="encrypted-media"></iframe>
                 </div>
                 <div class="col l4 offset-l2 s12">
@@ -104,40 +125,20 @@
                     <ul>
                         <li>
                             <a class="grey-text text-lighten-3" href="tel:18996313205" target="_blank" title="Celular e WhatsApp">
-<<<<<<< HEAD
-                                <p>
-                                    <i class="fab fa-whatsapp"></i> <b>(18) 99631-3205 - Flávio</b>
-                                </p>
-=======
                                 <i class="fab fa-whatsapp"></i> (18) 99631-3205 - Flávio <br>
                                 <br>
->>>>>>> faf7ec4fddc169dcce15187b4a8deb146197bb6a
                             </a>
                         </li>
                         <li>
                             <a class="grey-text text-lighten-3" href="mailto:contato@solartec.eco.br" target="_blank" title="Envie um e-mail">
-<<<<<<< HEAD
-                                <p>
-                                    <i class="fas fa-at"></i> <b>contato@solartec.eco.br</b>
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-lighten-3" target="_blank">
-                                <p>
-                                    <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Jardim das Rosas, Presidente
-                                    Prudente - SP
-                                </p>
-=======
                                 <i class="fas fa-at"></i> contato@solartec.eco.br<br>
                                 <br>
                             </a>
                         </li>
                         <li>
-                            <a class="grey-text text-lighten-3" title="Endereço" target="_blank">
+                            <a class="grey-text text-lighten-3" target="_blank">
                                 <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Jardim das Rosas, Presidente
                                 Prudente - SP <br>
->>>>>>> faf7ec4fddc169dcce15187b4a8deb146197bb6a
                             </a>
                         </li>
                     </ul>

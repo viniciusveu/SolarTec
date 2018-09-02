@@ -36,10 +36,17 @@ try {
     $mail->SMTPSecure = 'tls';
    
    /* SMTP authentication username. flavio.castilho@hotmail.com   Fla3564fla*/
+<<<<<<< HEAD
     $mail->Username = 'flavio.castilho@hotmail.com'; 
    
    /* SMTP authentication password. */
     $mail->Password = 'Fla3564fla';
+=======
+    $mail->Username = 'viniciusvedovotto@gmail.com'; 
+   
+   /* SMTP authentication password. */
+    $mail->Password = 'fostonfsgoogle';
+>>>>>>> faf7ec4fddc169dcce15187b4a8deb146197bb6a
    
    /* Set the SMTP port. */
     $mail->Port = 587;
