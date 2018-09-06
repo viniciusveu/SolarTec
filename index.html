@@ -21,6 +21,7 @@
     <script src="assets/js/utils.js"></script>
 
     <!--Style-->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Comfortaa');
         h1 {
@@ -31,17 +32,27 @@
             -webkit-text-stroke-color: black;
             font-weight: bold;
         }
-
-        .parallax-container {
-            height: absolute;
+        
+        @media screen and (min-width: 720px) {
+            #part1 {
+                height: 6.7vh;
+            }
+            #part2 {
+                height:55.3vh; 
+                width: 100%;
+            }
+            #part3 {
+                height: 38vh;
+            }
         }
+
     </style>
 </head>
 
 <!-- //Quem Somos, como funciona, Projetos, passo a passo, blog, contato -->
 
 <body>
-    <nav class="indigo darken-3">
+    <nav id="part1" class="indigo darken-3">
         <div class="nav-wrapper">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
@@ -103,7 +114,7 @@
         </li>
     </ul>
 
-    <div class="parallax-container center valign-wrapper" style="margin-left: -0.002%;">
+    <div id="part2" class="parallax-container center valign-wrapper" style="margin-left: -0.002%;">
         <div class="container">
             <div class="row">
                 <div class="col s12 white-text" style=" background-color: rgba(0, 0, 0, 0.3)">
@@ -118,7 +129,7 @@
     </div>
 
 
-    <footer class="page-footer indigo darken-3" id="footer">
+    <footer id="part3" class="page-footer indigo darken-3" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">

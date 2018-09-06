@@ -1,0 +1,12 @@
+@media screen and (min-width: 720px) {
+    #part1 {
+        height: 6.7vh;
+    }
+    #part2 {
+        height:55.3vh; 
+        width: 100%;
+    }
+    #part3 {
+        height: 38vh;
+    }
+}
