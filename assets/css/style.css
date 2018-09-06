@@ -3,10 +3,22 @@
         height: 6.7vh;
     }
     #part2 {
-        height:55.3vh; 
+        height: 56.3vh; 
         width: 100%;
     }
     #part3 {
-        height: 38vh;
+        height: 37vh;
     }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.tatutop:hover{
+    transform: scale(1.05, 1.03); 
+}
+
+.tatutop {
+    transition: all 0.5s ease;
 }

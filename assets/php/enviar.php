@@ -27,19 +27,19 @@ try {
     $mail->isSMTP();
    
    /* SMTP server address. */
-    $mail->Host = ' smtp.office365.com';
+    $mail->Host = 'smtp.gmail.com';
 
    /* Use SMTP authentication. */
     $mail->SMTPAuth = true;
    
    /* Set the encryption system. */
-    $mail->SMTPSecure = 'starttls';
+    $mail->SMTPSecure = 'tls';
    
    /* SMTP authentication username. flavio.castilho@hotmail.com   Fla3564fla*/
-    $mail->Username = 'vinicius_vedovotto@hotmail.com'; 
+    $mail->Username = 'meloflavio563@gmail.com'; 
    
    /* SMTP authentication password. */
-    $mail->Password = 'Foston6152';
+    $mail->Password = 'Fla3564fla';
    
    /* Set the SMTP port. */
     $mail->Port = 587;
@@ -56,7 +56,7 @@ try {
     $mail->setFrom('noreply.solartec@gmail.com', utf8_decode('Não responda - SolarTec'));
  
     /* Add a recipient. */
-    $mail->addAddress(utf8_decode('vinicius_vedovotto@hotmail.com'), utf8_decode('Vedovotto'));
+    $mail->addAddress(utf8_decode('flavio.castilho@hotmail.com'), utf8_decode('Flavio - SolarTec'));
  
     /* Set the subject. */
     $mail->Subject = utf8_decode('Novo contato site SolarTec - ' . $nome);
@@ -64,12 +64,12 @@ try {
     /* Set the mail message body. */
     $mail->Body = utf8_decode('Mensagem de: ' . $nome . '<br>Telefone: ' . $tel . '<br>E-mail: ' . $emailform . '<br>Cidade: ' . $cidade . '<br>Media de conta anual: ' . $luz . '<br>Mensagem: <br>' . $msg);
 
-    $mail->SMTPDebug = 4; 
+    //$mail->SMTPDebug = 4; 
 
     /* Finally send the mail. */
     $mail->send();
 
-    echo "<script>window.location.assign('../../obrigado.html')</script>";
+    echo "<script>window.location.assign('../../obrigado.php')</script>";
 } catch (Exception $e) {
     /* PHPMailer exception. */
     echo $e->errorMessage();
