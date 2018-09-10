@@ -20,6 +20,6 @@ $(document).ready(function () {
     })
     setInterval(function () {
         $('.carousel.carousel-slider').carousel('next');
-    }, 3000)
+    }, 4000)
 });
 

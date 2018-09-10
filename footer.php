@@ -14,22 +14,28 @@
                         <li>
                             <a class="grey-text text-lighten-3" href="tel:18996313205" target="_blank" title="Celular e WhatsApp">
                                 <p>
-                                    <i class="fab fa-whatsapp"></i> <b>(18) 99631-3205 - Flávio</b>
+                                    <i class="fab fa-whatsapp"></i> <b>(18) 99631-3205 - Flávio</b><br>
+                                </p>
+                                 <p>
+                                    <i class="fab fa-whatsapp"></i> <b>(43) 99972-5702 - Guilherme</b>
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a class="grey-text text-lighten-3" href="mailto:contato@solartec.eco.br" target="_blank" title="Envie um e-mail">
                                 <p>
-                                    <i class="fas fa-at"></i> <b>contato@solartec.eco.br</b>
+                                <i class="material-icons tiny">email</i> <b>contato@solartec.eco.br</b>
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a class="grey-text text-lighten-3" target="_blank">
                                 <p>
-                                    <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Jardim das Rosas, Presidente
-                                    Prudente - SP
+                                    <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Jardim das Rosas,<b> Presidente
+                                    Prudente - SP</b>
+                                </p>
+                                <p>
+                                <i class="fas fa-map-marked-alt"></i> Rua José Monteiro de Mello, 150, Bairro Jardim do Lago, <b>Londrina - PR</b>
                                 </p>
                             </a>
                         </li>

@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://material.io/tools/icons/?style=baseline">
     <link rel="shortcut icon" href="./assets/imagens/logo.ico" type="image/x-icon" />
 
     <!-- Scripts -->
@@ -24,6 +25,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
+
 <body>
     <nav id="part1" class="indigo darken-3">
         <div class="nav-wrapper">

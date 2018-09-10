@@ -35,7 +35,7 @@ try {
    /* Set the encryption system. */
     $mail->SMTPSecure = 'tls';
    
-   /* SMTP authentication username. flavio.castilho@hotmail.com   Fla3564fla*/
+   /* SMTP authentication username. Fla3564fla*/
     $mail->Username = 'meloflavio563@gmail.com'; 
    
    /* SMTP authentication password. */
@@ -56,7 +56,7 @@ try {
     $mail->setFrom('noreply.solartec@gmail.com', utf8_decode('Não responda - SolarTec'));
  
     /* Add a recipient. */
-    $mail->addAddress(utf8_decode('flavio.castilho@hotmail.com'), utf8_decode('Flavio - SolarTec'));
+    $mail->addAddress(utf8_decode('flavio.castilho@gmail.com'), utf8_decode('Flavio - SolarTec'));
  
     /* Set the subject. */
     $mail->Subject = utf8_decode('Novo contato site SolarTec - ' . $nome);
