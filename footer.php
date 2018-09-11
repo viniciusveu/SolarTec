@@ -16,6 +16,8 @@
                                 <p>
                                     <i class="fab fa-whatsapp"></i> <b>(18) 99631-3205 - Flávio</b><br>
                                 </p>
+                            </a>
+                            <a class="grey-text text-lighten-3" href="tel:43999725702" target="_blank" title="Celular e WhatsApp">
                                  <p>
                                     <i class="fab fa-whatsapp"></i> <b>(43) 99972-5702 - Guilherme</b>
                                 </p>
@@ -31,7 +33,7 @@
                         <li>
                             <a class="grey-text text-lighten-3" target="_blank">
                                 <p>
-                                    <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Jardim das Rosas,<b> Presidente
+                                    <i class="fas fa-map-marked-alt"></i> Rua Alfredo Macarini, 43, Bairro Jardim das Rosas,<b> Presidente
                                     Prudente - SP</b>
                                 </p>
                                 <p>

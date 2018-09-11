@@ -10,8 +10,7 @@ require_once "./header.php";
                     <span class="card-title"><p style="text-align:center"><b>MISSÃO <i class="material-icons">event_note</i></b></p></span>
                     <p>Fornecer aos nosso clientes, uma energia limpa sem a utilização de hidroelétricas e termoelétricas, 
                     que geram grande impacto ao meio ambiente. Trazendo conforto para seu lar ou empresa através do fornecimento de energia elétrica, 
-                    com um retorno financeiro sobre o seu investimento.</p>
-                    <p><br></p>
+                    com um retorno financeiro sobre o seu investimento.<br></p>
                 </div>
             </div>
         </div>
@@ -21,7 +20,7 @@ require_once "./header.php";
                 <div class="card-content white-text">
                     <span class="card-title"><p style="text-align:center"><b>VISÃO <i class="material-icons">assessment</i></b></p></span>
                     <p>Ser referencia no setor fotovoltaico, com colaboradores comprometidos com sua profissão inseridos em um excelente ambiente de trabalho,
-                    contribuindo assim para a formação de uma matriz energética sustentável para o país.<br><br><br><br></p>
+                    contribuindo assim para a formação de uma matriz energética sustentável para o país.<br><br><br></p>
                 </div>
             </div>
         </div>
@@ -35,7 +34,7 @@ require_once "./header.php";
             </div>
         </div>
     </div>
-
+   
 <?php 
 require_once "./footer.php";
 ?>

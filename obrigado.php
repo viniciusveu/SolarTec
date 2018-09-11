@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 white-text" style="background-color: rgba(0, 0, 0, 0.3)">
-                    <h1>Obrigado pelo contato! :D</h1>
+                    <h1>Obrigado pelo contato! <i class="material-icons medium">thumb_up</i></h1>
                     <h2>Retornaremos em breve!</h2>
                 </div>
             </div>

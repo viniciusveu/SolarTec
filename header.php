@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body class="background-color:  blue-grey lighten-5">
     <nav id="part1" class="indigo darken-3">
         <div class="nav-wrapper">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
