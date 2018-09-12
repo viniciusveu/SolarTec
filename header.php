@@ -32,8 +32,8 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
             </a>
-            <a href="index.php" class="brand-logo" title="Home" style="text-align: center">
-                <img src="./assets/imagens/logo_branco.png" alt="SolarTec" height="65px" style="padding: 7%; position: center;">
+            <a href="index.php" class="brand-logo" title="Home" style="margin: 5px">
+                <img src="./assets/imagens/logo_branco.png" alt="SolarTec" height="50px">
             </a>
             <ul class="right hide-on-med-and-down">
                 <li>
@@ -62,8 +62,7 @@
                 </li>
             </ul>
         </div>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
+        <ul class="sidenav" id="mobile-demo">
         <li>
             <a href="index.php"><b>Página Inicial</b> <i class="material-icons">home</i></a>
         </li>
@@ -94,3 +93,5 @@
             </a>
         </li>
     </ul>
+    </nav>
+  
