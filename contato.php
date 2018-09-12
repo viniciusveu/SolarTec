@@ -8,7 +8,7 @@
     ?>
        <div class="container darken-3">
            <div class="row">
-               <h4 class="header" style="margin: 3%">Solicite um orçamento: </h4>
+               <h4 class="header" style="margin: 3%"><b>Solicite um orçamento: </b></h4>
                <form class="col s12" action="assets/php/enviar.php" method="post" name="form">
                    <div class="row">
                        <div class="input-field col s12">
@@ -53,7 +53,7 @@
                        </div>
                    </div>
                    <div class="center">
-                       <button class="btn waves-effect waves-light" style="position: center;" type="submit">ENVIAR
+                       <button class="btn waves-effect waves-light" style="position: center;" type="submit"><b>ENVIAR</b>
                            <i class="material-icons right">send</i>
                        </button>
                    </div>

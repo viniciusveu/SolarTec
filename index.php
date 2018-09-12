@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col s12 white-text" style=" background-color: rgba(0, 0, 0, 0.3)">
                     <img src="./assets/imagens/logo_branco.png" alt="SolarTec" width="250px">
-                    <h5>GERE SUA PRÓPRIA ENERGIA E REDUZA SUA FATURA EM ATÉ 95%!</h5>
+                    <h5><b>GERE SUA PRÓPRIA ENERGIA E REDUZA SUA FATURA EM ATÉ 95%!</b></h5>
                 </div>
             </div>
         </div>

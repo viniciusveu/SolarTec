@@ -57,7 +57,7 @@
                 <li>
                     <a href="contato.php">
                         <button class="btn waves-effect waves-light yellow accent-4 blue-text z-depth-5" title="Converse conosco e peça um orçamento"
-                            type="button" name="action">ORÇAMENTO</button>
+                            type="button" name="action"><b>ORÇAMENTO</b></button>
                     </a>
                 </li>
             </ul>
@@ -84,7 +84,7 @@
         </li>
         <li>
             <a href="contato.php">
-                <button class="btn waves-effect waves-light center" title="Converse conosco e peça um orçamento" type="button" name="action">ORÇAMENTO</button>
+                <button class="btn waves-effect waves-light center" title="Converse conosco e peça um orçamento" type="button" name="action"><b>ORÇAMENTO</b></button>
             </a>
         </li>
     </ul>
