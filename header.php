@@ -65,26 +65,32 @@
     </nav>
     <ul class="sidenav" id="mobile-demo">
         <li>
-            <a href="index.php">Página Inicial</a>
+            <a href="index.php"><b>Página Inicial</b> <i class="material-icons">home</i></a>
         </li>
+        <div class="divider black"></div>
         <li>
-            <a href="quemsomos.php">Quem Somos</a>
+            <a href="quemsomos.php"><b>Quem Somos</b></a>
         </li>
+        <div class="divider"></div>
         <li>
-            <a href="comofunciona.php">Como Funciona</a>
+            <a href="comofunciona.php"><b>Como Funciona</b></a>
         </li>
+        <div class="divider"></div>
         <li>
-            <a href="projetos.php">Projetos</a>
+            <a href="projetos.php"><b>Projetos</b></a>
         </li>
+        <div class="divider"></div>
         <li>
-            <a href="passoapasso.php">Passo a Passo</a>
+            <a href="passoapasso.php"><b>Passo a Passo</b></a>
         </li>
+        <div class="divider"></div>
         <li>
-            <a href="blog.php">Blog</a>
+            <a href="blog.php"><b>Blog</b></a>
         </li>
-        <li>
+        <div class="divider black"></div>
+        <li class="center">
             <a href="contato.php">
-                <button class="btn waves-effect waves-light center" title="Converse conosco e peça um orçamento" type="button" name="action"><b>ORÇAMENTO</b></button>
+                <button class="btn waves-effect waves-light indigo darken-3" title="Converse conosco e peça um orçamento" type="button" name="action"><b>ORÇAMENTO</b></button>
             </a>
         </li>
     </ul>

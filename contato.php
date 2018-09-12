@@ -53,7 +53,7 @@
                        </div>
                    </div>
                    <div class="center">
-                       <button class="btn waves-effect waves-light" style="position: center;" type="submit"><b>ENVIAR</b>
+                       <button class="btn waves-effect waves-light indigo darken-3" style="position: center;" type="submit"><b>ENVIAR</b>
                            <i class="material-icons right">send</i>
                        </button>
                    </div>
