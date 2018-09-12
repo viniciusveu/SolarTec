@@ -8,7 +8,7 @@ require_once "./header.php";
             <div class="card blue">
                 <div class="card-content white-text">
                     <span class="card-title"><p style="text-align:center"><b>MISSÃO <i class="material-icons">event_note</i></b></p></span>
-                    <p>Fornecer aos nosso clientes, uma energia limpa sem a utilização de hidroelétricas e termoelétricas, 
+                    <p>Fornecer aos nossos clientes, uma energia limpa sem a utilização de hidroelétricas e termoelétricas, 
                     que geram grande impacto ao meio ambiente. Trazendo conforto para seu lar ou empresa através do fornecimento de energia elétrica, 
                     com um retorno financeiro sobre o seu investimento.<br></p>
                 </div>
