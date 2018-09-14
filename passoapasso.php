@@ -4,7 +4,7 @@
 ?>
 
     <div class="container">
-        <img style="max-width: 100%;" src="./assets/imagens/como_funciona2.png">
+        <img style="max-width: 100%;" src="./assets/imagens/passoapasso.png">
     </div>
 
 <?php
